@@ -1,0 +1,77 @@
+---
+title: Dopetrope
+layout: landing
+---
+  
+	<body class="homepage">
+	{% include header_landing.html %}
+
+		<!-- Main -->
+			<div id="main-wrapper">
+				<div class="container">
+					<div class="row">
+						<div class="12u">
+
+							<!-- Portfolio -->
+								<section id="tutors">
+									<header class="major">
+										<h2>المدرسين</h2>
+									</header>
+									<div class="row">
+										<div class="4u">
+											<section class="box">
+												<a href="#" class="image featured"><img src="{{ site.baseurl }}/assets/images/tutors/nellieelenany.jpg" alt="Nellie Elenany" /></a>
+												<header>
+													<h3>نيللي</h3>
+												</header>
+												<p>نيللي انجليزية من اصل مصري. دكتورة في الجامعة الامريكية. تقدر تفتح مواضيع تتفاعل فيها مع ولادك.</p>
+												<footer>
+													<a href="#" class="button" onclick="document.getElementsByName('tutorname')[0].value='Nellie';window.location.hash ='#finalstep';return false;">اختر نيللي</a>
+												</footer>
+											</section>
+										</div>
+										<div class="4u">
+											<section class="box">
+												<a href="#" class="image featured"><img src="{{ site.baseurl }}/assets/images/tutors/aprilperkins.jpg" alt="April Perkins" /></a>
+												<header>
+													<h3>ابريل</h3>
+												</header>
+												<p>ابريل امريكية متجوزة مصري. اتعلمت عربي و هي بتدرس انجليزي اصلا للمعيدين في جامعة الازهر.</p>
+												<footer>
+													<a href="#" class="button">اختر ابريل</a>
+												</footer>
+											</section>
+										</div>
+										<div class="4u">
+											<section class="box">
+												<a href="#" class="image featured"><img src="{{ site.baseurl }}/assets/images/tutors/aprilperkins.jpg" alt="April Perkins" /></a>
+												<header>
+													<h3>ابريل</h3>
+												</header>
+												<p>ابريل امريكية متجوزة مصري. اتعلمت عربي و هي بتدرس انجليزي اصلا للمعيدين في جامعة الازهر.</p>
+												<footer>
+													<a href="#" class="button">اختر ابريل</a>
+												</footer>
+											</section>
+										</div>
+									</div>
+								</section>
+								<section id="finalstep">
+									<header class="major">
+										<h2>ابعت لنا</h2>
+									</header>
+
+									<form  action="https://formspree.io/mo7adsa@gmail.com" method="POST" style="text-align:center">
+										<h2>رقم تليفون</h2><input type="text" name="contact_tel" id="contact_tel" />
+										<input type="hidden" name="tutorname"/>
+										<input type="submit" value="ابعت"/>
+										<input type="hidden" name="_next" value="#" />
+										<input type="hidden" name="_subject" value="New Tutor Request!" />
+										<input type="text" name="_gotcha" style="display:none" />
+									</form>
+								</section>
+
+						</div>
+					</div>
+					</div>
+					</div>

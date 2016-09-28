@@ -1,0 +1,13 @@
+/* lalezar-regular - latin_arabic */
+@font-face {
+  font-family: 'Lalezar';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/lalezar-v1-latin_arabic-regular.eot'); /* IE9 Compat Modes */
+  src: local('Lalezar'), local('Lalezar-Regular'),
+       url('../fonts/lalezar-v1-latin_arabic-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/lalezar-v1-latin_arabic-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/lalezar-v1-latin_arabic-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/lalezar-v1-latin_arabic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/lalezar-v1-latin_arabic-regular.svg#Lalezar') format('svg'); /* Legacy iOS */
+}
